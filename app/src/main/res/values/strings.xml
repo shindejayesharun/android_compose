@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">jetpack_compose</string>
+    <string name="tv_sample_text">Simple Text View</string>
+    <string name="title_activity_simple_text">SimpleTextActivity</string>
 </resources>

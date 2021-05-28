@@ -1,11 +1,16 @@
-package com.shindejayesharun.android_jetpack_compose_example
+package com.shindejayesharun.jetpack_compose
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+    }
+
+    fun startSimpleText(view: View) {
+
     }
 }

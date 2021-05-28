@@ -1,4 +1,4 @@
-package com.shindejayesharun.android_jetpack_compose_example
+package com.shindejayesharun.jetpack_compose
 
 import org.junit.Test
 
