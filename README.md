@@ -10,7 +10,8 @@ Android UI that we are accustomed to building.
 
 |Example|Preview|
 |-------|-------|
-|[ Simple Text ]()| |
+|[ Initial Project ]()| ![initial project](screenshot/img_text_view.png)|
+|[ Text Samples ]()| ![text samples](screenshot/img_text_sample.png)|
 
 License
 -----------------
