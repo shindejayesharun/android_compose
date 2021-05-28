@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jetpack_compose">
         <activity
+            android:name=".examples.TextViewSampleActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_view_sample"
+            android:theme="@style/Theme.Jetpack_compose.NoActionBar" />
+        <activity
             android:name=".examples.SimpleTextActivity"
             android:exported="true"
             android:label="@string/title_activity_simple_text"

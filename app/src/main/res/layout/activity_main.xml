@@ -5,17 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="@dimen/default_padding">
+    android:padding="@dimen/default_padding"
+    android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/card_height"
         android:onClick="startSimpleText"
-        tools:ignore="OnClick">
+        tools:ignore="OnClick"
+        app:cardUseCompatPadding="true">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tv_sample_text"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:onClick="startTextViewExamples"
+        app:cardUseCompatPadding="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_textview_examples"
             android:layout_gravity="center"/>
     </androidx.cardview.widget.CardView>
 

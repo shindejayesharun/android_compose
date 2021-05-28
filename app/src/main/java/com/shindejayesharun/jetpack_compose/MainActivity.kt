@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.shindejayesharun.jetpack_compose.examples.SimpleTextActivity
+import com.shindejayesharun.jetpack_compose.examples.TextViewSampleActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,5 +15,9 @@ class MainActivity : AppCompatActivity() {
 
     fun startSimpleText(view: View) {
         startActivity(Intent(this,SimpleTextActivity::class.java))
+    }
+
+    fun startTextViewExamples(view: View) {
+        startActivity(Intent(this,TextViewSampleActivity::class.java))
     }
 }
