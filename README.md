@@ -10,9 +10,9 @@ Android UI that we are accustomed to building.
 
 |Example|Preview|
 |-------|-------|
-|[ Initial Project ]()| ![initial project](screenshot/img_text_view.png)|
-|[ Text Samples ]()| ![text samples](screenshot/img_text_sample.png)|
-|[ TextField Samples ]()| ![textfield samples](screenshot/img_text_field_sample.png)|
+|[ Initial Project ](https://github.com/shindejayesharun/android_compose/blob/master/app/src/main/java/com/shindejayesharun/jetpack_compose/examples/SimpleTextActivity.kt)| ![initial project](screenshot/img_text_view.png)|
+|[ Text Samples ](https://github.com/shindejayesharun/android_compose/blob/master/app/src/main/java/com/shindejayesharun/jetpack_compose/examples/TextViewSampleActivity.kt)| ![text samples](screenshot/img_text_sample.png)|
+|[ TextField Samples ](https://github.com/shindejayesharun/android_compose/blob/master/app/src/main/java/com/shindejayesharun/jetpack_compose/examples/EditTextSampleActivity.kt)| ![textfield samples](screenshot/img_text_field_sample.png)|
 
 License
 -----------------
