@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.shindejayesharun.jetpack_compose.examples.EditTextSampleActivity
 import com.shindejayesharun.jetpack_compose.examples.SimpleTextActivity
 import com.shindejayesharun.jetpack_compose.examples.TextViewSampleActivity
 
@@ -19,5 +20,9 @@ class MainActivity : AppCompatActivity() {
 
     fun startTextViewExamples(view: View) {
         startActivity(Intent(this,TextViewSampleActivity::class.java))
+    }
+
+    fun startEditTextExamples(view: View) {
+        startActivity(Intent(this,EditTextSampleActivity::class.java))
     }
 }

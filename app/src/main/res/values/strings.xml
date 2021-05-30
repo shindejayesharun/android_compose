@@ -4,4 +4,6 @@
     <string name="title_activity_simple_text">SimpleTextActivity</string>
     <string name="title_activity_text_view_sample">TextViewSampleActivity</string>
     <string name="tv_textview_examples">TextView examples</string>
+    <string name="title_activity_edit_text_sample">EditTextSampleActivity</string>
+    <string name="tv_edit_text_sample">Edit Text samples</string>
 </resources>

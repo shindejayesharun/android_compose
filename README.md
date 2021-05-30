@@ -12,6 +12,7 @@ Android UI that we are accustomed to building.
 |-------|-------|
 |[ Initial Project ]()| ![initial project](screenshot/img_text_view.png)|
 |[ Text Samples ]()| ![text samples](screenshot/img_text_sample.png)|
+|[ TextField Samples ]()| ![textfield samples](screenshot/img_text_field_sample.png)|
 
 License
 -----------------
